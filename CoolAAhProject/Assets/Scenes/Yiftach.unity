@@ -428,7 +428,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 587778739}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.275, y: -0.122, z: 0}
+  m_LocalPosition: {x: -0.166, y: -0.127, z: 0}
   m_LocalScale: {x: 0.7362, y: 0.7362, z: 0.7362}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -448,10 +448,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerSpeed: 0.01
-  block1: {fileID: 13842763}
-  block2: {fileID: 141939675}
-  upperLimit: -0.019
-  lowerLimit: -0.194
+  upperLimitY: 0
+  lowerLimitY: -0.194
+  upperLimitX: 0.9
+  lowerLimitX: -0.53
 --- !u!60 &587778744
 PolygonCollider2D:
   m_ObjectHideFlags: 0
