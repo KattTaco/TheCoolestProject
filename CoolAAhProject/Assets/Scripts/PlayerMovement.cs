@@ -21,7 +21,6 @@ public class PlayerMovement : MonoBehaviour
     {
 		if (Input.GetKey(KeyCode.W))
 		{
-
 			gameObject.transform.position = new Vector3(gameObject.transform.position.x, Mathf.Clamp(gameObject.transform.position.y+ PlayerSpeed, lowerLimitY, upperLimitY), gameObject.transform.position.z);
 			//gameObject.GetComponent<SpriteRenderer>().sprite = back;
 			//GetComponent<AudioSource>().Play();
